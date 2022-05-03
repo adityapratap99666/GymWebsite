@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+           padding: 0px;
+           }
+       body{
+          
+           background-image: url('img/bg.jpg');
+           color: white;
+           background-size: 170% 160%;
+           background-repeat: repeat;
+       }
+       .left{
+           /* border: 2px solid red; */
+           display: inline-block;
+           position: absolute;
+           top: 20px;
+           left: 20px;
+          
+   
+       }
+       .navbar{
+           /* border: 2px solid green; */
+           display: block;
+           width: 35%;
+           
+           margin: 20px auto;
+       }
+       .right{
+           /* border: 2px solid yellow; */
+           display: inline-block;
+           position: absolute;
+           right: 20px;
+           top:33px;
+           
+       }
+       .navbar li{
+           display: inline-block;
+           padding: 18px 18px;
+       }
+       .navbar li a{
+          text-decoration: none;
+          color: white;
+          font-size: 19px;
+       }
+       .navbar li a:hover{
+          text-decoration: underline;
+          color: grey
+          ;
+       }
+       .left img{
+           width: 85px ;
+       }
+       .left div {
+           text-align: center;
+       }
+       .right{
+           /* width: 15%; */
+       }
+       .btn{
+           margin: 0px 9px;
+           background-color: black;
+           color: white;
+           padding: 4px 14px;
+           border: 2px solid grey;
+           border-radius: 10px;
+           font-size: 14px;
+           cursor: pointer;
+       }
+       .btn:hover{
+           background-color: grey;
+       }
+       .sec_con{
+           width: 25%;
+           border: 2px solid rgb(238, 232, 243);
+           margin: 106px 80px;
+           padding: 40px;
+           border-radius: 8px;
+           text-align: center;
+       }
+       .form-group input{
+           text-align: center;
+           display: block;
+           width: 89%;
+           margin: 11px auto;
+           padding: 1px;
+           font-size: 20px;
+           border-radius: 10px;
+   
+       }
+       .sec_con button{
+           width:53%;
+           display: block;
+           margin: 9px auto;
+           padding: 7px;
+       }
